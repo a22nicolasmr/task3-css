@@ -1,0 +1,60 @@
+body{
+    background-color: #d0d3d4;
+}
+h1{
+    color:#cd6155;
+}
+h2{
+    color:indianred;
+}
+li{
+    color:salmon;
+}
+p{
+    background-color: #8073fa;
+}
+input{
+    border-color:#73fa80 ;
+    border-width: 3px;
+}
+.first{
+    background-color: salmon;
+}
+#special{
+    border:solid rgb(115,250,128)  ;
+}
+div p{
+
+    font-size: 25px
+}
+[type="text"]{
+    background-color: salmon;
+}
+div:nth-of-type(3){
+    background-color: #73fa80;
+}
+div:nth-child(5) p:last-child{
+    border-width: 5px;
+    border-color: salmon;
+    border-style: solid;
+}
+em{
+    color: salmon;
+    font-size: 20px;
+}
+:checked{
+    margin-left:50px ;
+}
+label{
+    text-transform: uppercase;
+}
+#special::first-letter{
+    color:#73FA80 ;
+    font-size: 100;
+}
+h1:hover{
+    color: #8073FA;
+}
+a:visited{
+    color: salmon;
+}
